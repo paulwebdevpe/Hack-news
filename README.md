@@ -22,8 +22,16 @@ Hack News è un'applicazione web che recupera e visualizza le ultime notizie uti
 
 ## Utilizzo 
 
-1. Apri la pagina web nel browser, e le ultime notizie da Hacker News verranno caricate automaticamente.
-2. Clicca su "Load more" per caricare altre storie.
+## Installazione
+
+Segui questi passaggi per eseguire il progetto "Hack News" in locale:
+
+1. **Clona il repository**:
+
+   Utilizza Git per clonare il repository nella tua macchina locale:
+
+   ```bash
+   git clone https://github.com/paulwebdevpe/hack-news.git
 
 ## Tecnologie Utilizzate
 
