@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="/fav.ico" rel="icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=rocket_launch"
+    />
+
+    <meta property="og:title" content="Hack News" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://paulwebdevpe.github.io/" />
+
+    <title>Hack News</title>
+  </head>
+  <body class="bg-gray-900 font-rajdhani px-3 md:px-12">
+    <div class="container mx-auto lg:max-w-[1280px]">
+      <div class="py-10 ">
+        <img
+          class="max-h-[200px] w-[400px] rounded-full mx-auto shadow-md shadow-green-500"
+          src="src/img/logo.png"
+          alt=""
+        />
+      </div>
+
+      <div>
+        <ul class="result break-words md:grid md:grid-cols-2 lg:grid-cols-3 gap-5 "></ul>
+      </div>
+      <div class="text-center py-5">
+        <button
+          id="load-more"
+          type="button"
+          class="bg-[#22a0b6] hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded-full">
+          Load more
+        </button>
+      </div>
+    </div>
+
+    <script type="module" src="/src/js/main.js"></script>
+  </body>
+</html>
