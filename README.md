@@ -34,7 +34,7 @@ Segui questi passaggi per eseguire il progetto "Hack News" in locale:
     git clone https://github.com/paulwebdevpe/Hack-news.git
 2. **Installa le dipendenze**:
     Hack News utilizza Axios e Lodash. Se non sono installati nel progetto, puoi aggiungerli utilizzando npm:
-        ```bash
+    ```bash
     npm install axios lodash
 3. **Avvia il progetto**:
     Non è necessario un server di backend. Puoi utilizzare un'estensione come Live Server per Visual Studio Code o qualsiasi altro server locale che preferisci. Dopo aver avviato il server locale, apri il file index.html nel tuo browser per visualizzare l'applicazione.
