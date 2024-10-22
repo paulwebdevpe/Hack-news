@@ -28,10 +28,18 @@ Segui questi passaggi per eseguire il progetto "Hack News" in locale:
 
 1. **Clona il repository**:
 
-   Utilizza Git per clonare il repository nella tua macchina locale:
+    Utilizza Git per clonare il repository nella tua macchina locale:
 
-   ```bash
-   git clone https://github.com/paulwebdevpe/hack-news.git
+    ```bash
+    git clone https://github.com/paulwebdevpe/Hack-news.git
+2. **Installa le dipendenze**:
+    Hack News utilizza Axios e Lodash. Se non sono installati nel progetto, puoi aggiungerli utilizzando npm:
+        ```bash
+    npm install axios lodash
+3. **Avvia il progetto**:
+    Non è necessario un server di backend. Puoi utilizzare un'estensione come Live Server per Visual Studio Code o qualsiasi altro server locale che preferisci. Dopo aver avviato il server locale, apri il file index.html nel tuo browser per visualizzare l'applicazione.
+4. **Guarda l'app in azione**:
+    Una volta aperta la pagina, vedrai le ultime storie di Hacker News caricate automaticamente. Puoi cliccare sul pulsante "Load more" per caricare altre storie.
 
 ## Tecnologie Utilizzate
 
