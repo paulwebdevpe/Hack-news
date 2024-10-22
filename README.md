@@ -23,7 +23,7 @@ Segui questi passaggi per eseguire il progetto "Hack News" in locale:
     Utilizza Git per clonare il repository nella tua macchina locale:
 
     ```bash
-    git clone https://github.com/paulwebdevpe/hack-news.git
+    git clone https://github.com/paulwebdevpe/Hack-news.git
 
 2. **Installa le dipendenze**:
 
