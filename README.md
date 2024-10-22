@@ -13,15 +13,6 @@ Hack News è un'applicazione web che recupera e visualizza le ultime notizie uti
 ## Screenshoot
 
 
-
-## Installazione
-
-1. Clona il repository o scarica i file.
-2. Apri il file index.html nel tuo browser.
-3. Digita un argomento nel campo di input e premi "Search" per visualizzare i risultati.
-
-## Utilizzo 
-
 ## Installazione
 
 Segui questi passaggi per eseguire il progetto "Hack News" in locale:
@@ -32,14 +23,25 @@ Segui questi passaggi per eseguire il progetto "Hack News" in locale:
 
     ```bash
     git clone https://github.com/paulwebdevpe/hack-news.git
+
 2. **Installa le dipendenze**:
+
     Hack News utilizza Axios e Lodash. Se non sono installati nel progetto, puoi aggiungerli utilizzando npm:
     ```bash
     npm install axios lodash
+
 3. **Avvia il progetto**:
+
     Non è necessario un server di backend. Puoi utilizzare un'estensione come Live Server per Visual Studio Code o qualsiasi altro server locale che preferisci. Dopo aver avviato il server locale, apri il file index.html nel tuo browser per visualizzare l'applicazione.
+
 4. **Guarda l'app in azione**:
+
     Una volta aperta la pagina, vedrai le ultime storie di Hacker News caricate automaticamente. Puoi cliccare sul pulsante "Load more" per caricare altre storie.
+
+## Utilizzo 
+
+1. Apri la pagina web nel browser, e le ultime notizie da Hacker News verranno caricate automaticamente.
+2. Clicca su "Load more" per caricare altre storie.
 
 ## Tecnologie Utilizzate
 
