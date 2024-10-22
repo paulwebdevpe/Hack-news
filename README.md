@@ -12,6 +12,7 @@ Hack News è un'applicazione web che recupera e visualizza le ultime notizie uti
 
 ## Screenshoot
 
+![Hack News image](https://github.com/user-attachments/assets/2118de9c-6dfc-4575-ba7c-f63d09848b9e)
 
 ## Installazione
 

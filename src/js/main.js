@@ -40,7 +40,7 @@ const getDataNews = async (id) => {
 };
 
 function displayNews(data) {
-  const resultNews = document.querySelector(".result");
+  const resultNews = document.getElementById("result");
   const unixTime = data.time;
   const date = new Date(unixTime * 1000);
 
